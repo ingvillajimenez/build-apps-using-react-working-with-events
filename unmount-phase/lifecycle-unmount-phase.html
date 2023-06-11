@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://unpkg.com/react@16.7.0/umd/react.development.js"></script>
+	<script src="https://unpkg.com/react-dom@16.7.0/umd/react-dom.development.js"></script>
+	<script src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script>
+
+	<style>
+		.employee {
+			height: 40px;
+			width: 200px;
+			text-align: left;
+			vertical-align: middle;
+			font-family: sans-serif;
+			font-size: 18px;
+			color: #003333;
+		}
+		.button {
+			display: inline-block;
+			text-align: center;
+			border: solid 1px #333300;
+			color: black;
+			cursor: pointer;
+			line-height: 26px;
+			font-size: 14px;
+			background-color: #b3b300;
+		}
+	</style>
+</head>
+<body>
+	<div class="container" id="outer">
+	</div>
+	<script type="text/babel" src="lifecycle-unmount-phase.js">		
+	</script>
+</body>
+</html>
+

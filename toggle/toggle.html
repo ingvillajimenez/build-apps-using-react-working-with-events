@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://unpkg.com/react@16.7.0/umd/react.development.js"></script>
+	<script src="https://unpkg.com/react-dom@16.7.0/umd/react-dom.development.js"></script>
+	<script src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script>
+
+	<style>
+		.box {
+			margin: 4px;
+			font-size: 82px;
+			width: 604px;
+			height: 100px;
+			border: 1px solid darkturquoise;
+			text-align: center;
+		}
+		.button {
+			width: 150px;
+			color: green;
+			text-align: center;
+			font-size: 20px;
+			border: solid 1px black;
+			cursor: pointer;
+			margin: 5px;
+			line-height: 34px;
+			background-color: lightpink;
+		}
+	</style>
+</head>
+<body>
+	<div class="container" id="react-event-toggle">
+	</div>
+	<script type="text/babel" src="toggle.js">		
+	</script>
+</body>
+</html>
+
